@@ -1,0 +1,10 @@
+# Always hidden, whatever the detector thinks. One entry per line.
+# Matching ignores case and is exact, so add the spellings you actually use.
+# Use this for people the detector misses, especially names written in
+# Bangla script, and for phone numbers or IDs written in unusual ways.
+Example Person
+একটি নাম
+Imran
+ইমরান
+Shakil
+শাকিল

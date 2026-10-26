@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+logs/
+data/always_hide.txt
+data/never_hide.txt
+*.bak*

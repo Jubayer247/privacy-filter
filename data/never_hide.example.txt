@@ -1,0 +1,3 @@
+# Never hidden, even when the detector thinks it is personal.
+# Put product names, company words and anything else you want the model to see.
+Example Company

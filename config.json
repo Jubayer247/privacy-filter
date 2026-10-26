@@ -1,0 +1,28 @@
+{
+  "listen_host": "127.0.0.1",
+  "listen_port": 8790,
+  "upstream": "https://integrate.api.nvidia.com/v1",
+  "min_score": 0.35,
+  "block_images": true,
+  "phone_regions": [
+    "BD",
+    "US",
+    "GB",
+    "IN",
+    "CA",
+    "AU",
+    "AE",
+    "SA",
+    "MY",
+    "SG"
+  ],
+  "upstream_timeout_s": 900,
+  "upstreams": {
+    "nvidia": "https://integrate.api.nvidia.com/v1",
+    "openrouter": "https://openrouter.ai/api/v1",
+    "zai": "https://api.z.ai/api/paas/v4",
+    "zai-glm": "https://api.z.ai/api/paas/v4",
+    "local": "http://127.0.0.1:18434/v1",
+    "local-ollama": "http://127.0.0.1:11434/v1"
+  }
+}
