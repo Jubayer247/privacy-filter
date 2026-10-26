@@ -26,7 +26,7 @@ SECRETS = {
     "phones": ["+880 1712 345678", "01711234567", "+1 (603) 555-0100", "০১৭১১২৩৪৫৬৭"],
     "emails": ["rahim.c@example.com", "imran@example.org"],
     "ids": ["1234567890123", "19901234567890123", "AB1234567"],
-    "secrets": ["nvapi-AbCdEf1234567890abcdef1234567890", "S3cretPass!99", "ghp_abcdefghijklmnopqrstuvwxyz0123456789AB",
+    "secrets": ["nvapi-FAKE0000000000000000000000000000", "S3cretPass!99", "ghp_FAKE0000000000000000000000000000000000",
                 "hunter2pass"],
     "other": ["100000000000001@lid", "House 12, Road 5", "192.168.1.44", "4111 1111 1111 1111"],
 }
@@ -36,8 +36,8 @@ TEXT = (
     "Dhanmondi. His NID: 1234567890123 and smart card 19901234567890123. Passport no AB1234567. "
     "Ayesha Rahman called from 01711234567; Imran asked Shakil to follow up. Fatema Begum's US number is "
     "+1 (603) 555-0100. Md Kamal Hossain reviewed it. Tanvir Hasan, John Smith. WhatsApp 100000000000001@lid. "
-    "Server 192.168.1.44, password: S3cretPass!99, key nvapi-AbCdEf1234567890abcdef1234567890, "
-    "token ghp_abcdefghijklmnopqrstuvwxyz0123456789AB, db postgres://admin:hunter2pass@db.local/app. "
+    "Server 192.168.1.44, password: S3cretPass!99, key nvapi-FAKE0000000000000000000000000000, "
+    "token ghp_FAKE0000000000000000000000000000000000, db postgres://admin:hunter2pass@db.local/app. "
     "Card 4111 1111 1111 1111. DOB: 12/03/1990. Bangla digits: ০১৭১১২৩৪৫৬৭. "
     "Keep: Progression, Dhaka, invoice INV-2026-0042, amount BDT 160,000, date 21 Oct 2026."
 )

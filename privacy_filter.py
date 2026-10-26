@@ -638,8 +638,9 @@ def build_app(cfg: dict, pf: PrivacyFilter):
         return console_rows
 
     def console_write(entries: list):
+        kept = list(entries[-20:])          # copy first: entries may be console_rows itself
         del console_rows[:]
-        console_rows.extend(entries[-20:])
+        console_rows.extend(kept)
 
     def console_add(entry: dict) -> None:
         """One exchange in the live console: anonymized outgoing, restored incoming."""
